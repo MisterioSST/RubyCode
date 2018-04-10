@@ -1,8 +1,12 @@
-print "Hello, What your Name? " 
+puts "Hello, What your Name? " 
 my_name = gets.chomp
 
-print "How old are you? "
-my_old = gets.to_s
+puts "How old are you? "
+my_old = gets.to_i
 
-print "What your Family Name? "
+puts "What your Family Name? "
 my_family = gets.chomp
+
+puts my_name
+puts my_old
+puts my_family
