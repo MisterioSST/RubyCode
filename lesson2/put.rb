@@ -1,11 +1,13 @@
 print "Hello, what your name? "
-my_name = gets.chomp
+myname = gets.chomp
 
 print "What your family name? "
-family_name = gets.chomp
+familyname = gets.chomp
 
 print "What is your age? "
-my_age = gets.to_i
+myage = gets.to_i
 
-my_str =  "Your name is #{my_name}. Your family name is #{family_name}. Your age is #{my_age}."
-puts my_str.reverse
+"myname".capitalize
+
+my_str =  "Your name is #{myname}. Your family name is #{familyname}. Your age is #{myage}."
+puts my_str.reverse 
